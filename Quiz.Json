@@ -1,0 +1,47 @@
+﻿[
+  {
+    "questionId": "1",
+    "questionDescription": "Are you using a shower head to take a shower?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes",
+        "Tips": "Fantastic! Do you know there are several types of shower heads. A low-flow shower head uses about 2 gallons of water a minute."
+      },
+      {
+        "option": "No",
+        "Tips": "It is recommended that using low-flow shower heads reduces water usage."
+      }
+    ]
+  },
+  {
+    "questionId": "2",
+    "questionDescription": "Will you spend more than 15 minutes in the shower?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes",
+        "Tips": "Hey A low-flow shower head uses about 20 gallons for a 10 minute shower."
+      },
+      {
+        "option": "No",
+        "Tips": "That was awesome. You can use technique likes timer or play simple song to control your shower time."
+      }
+    ]
+  },
+  {
+    "questionId": "3",
+    "questionDescription": "Will you spend more than 15 minutes in the shower?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes",
+        "Tips": "Hey A low-flow shower head uses about 20 gallons for a 10 minute shower."
+      },
+      {
+        "option": "No",
+        "Tips": "That was awesome. You can use technique likes timer or play simple song to control your shower time."
+      }
+    ]
+  }
+]

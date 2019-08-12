@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "questionId": "1",
     "questionDescription": "Are you using a shower head to take a shower?",
@@ -6,10 +6,12 @@
     "questionOptions": [
       {
         "option": "Yes",
+        "value": "10",
         "Tips": "Fantastic! Do you know there are several types of shower heads. A low-flow shower head uses about 2 gallons of water a minute."
       },
       {
         "option": "No",
+        "value": "20",
         "Tips": "It is recommended that using low-flow shower heads reduces water usage."
       }
     ]
@@ -21,26 +23,149 @@
     "questionOptions": [
       {
         "option": "Yes",
+        "value": "20",
         "Tips": "Hey A low-flow shower head uses about 20 gallons for a 10 minute shower."
       },
       {
         "option": "No",
+        "value": "10",
         "Tips": "That was awesome. You can use technique likes timer or play simple song to control your shower time."
       }
     ]
   },
   {
     "questionId": "3",
-    "questionDescription": "Will you spend more than 15 minutes in the shower?",
+    "questionDescription": "Do you take more than one shower in a day?",
     "questionType": "SingleOption",
     "questionOptions": [
       {
         "option": "Yes",
-        "Tips": "Hey A low-flow shower head uses about 20 gallons for a 10 minute shower."
+        "value": "10",
+        "Tips": "As per UNESCO, one shower a day is enough for a hot day."
       },
       {
         "option": "No",
-        "Tips": "That was awesome. You can use technique likes timer or play simple song to control your shower time."
+        "value": "0",
+        "Tips": "Ok. Showers usually keeps you healthy."
+      }
+    ]
+  },
+  {
+    "questionId": "4",
+    "questionDescription": "In average, Can you count how many toilet flushes you use? Is it more than 10 toilet flushes in a day?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes. More than 10 Flushes",
+        "value": "30",
+        "Tips": "Reminder! Using half flushes and automatic flushes can save more water."
+      },
+      {
+        "option": "No. Less than 10 flushes",
+        "value": "10",
+        "Tips": "Do you check for water leaks on toilet flushes. It is a nice practice to find out and fix leaks to save water."
+      }
+    ]
+  },
+  {
+    "questionId": "5",
+    "questionDescription": "In a day, Do you spend more than 30 minutes to wash your dishes?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes",
+        "value": "20",
+        "Tips": "Remember! Do not keep your pipe turned on while washing your dishes. Save Water!"
+      },
+      {
+        "option": "No",
+        "value": "10",
+        "Tips": "Using sensors in your taps can help you to efficiently manage your water usage. :)"
+      }
+    ]
+  },
+  {
+    "questionId": "6",
+    "questionDescription": "Are your washing machine is water efficient? How many stars do your washing machine?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "More than 3 stars",
+        "value": "10",
+        "Tips": "Water efficient washing machine can reduce your water bills."
+      },
+      {
+        "option": "3 or Less than 3 Stars",
+        "value": "0",
+        "Tips": "Do your laundry once in a week can help you saving more water."
+      }
+    ]
+  },
+  {
+    "questionId": "7",
+    "questionDescription": "Do you usually open the tap and leave it until you complete your day to activities (brushing, shaving)?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Sometimes/Regularly",
+        "value": "20",
+        "Tips": "It is important to turn off your tap in between your daily routines. Also you can use automatic taps to control your habit."
+      },
+      {
+        "option": "Never",
+        "value": "0",
+        "Tips": "That is Good. Using automatic taps are more effective in controlling your water usage."
+      }
+    ]
+  },
+  {
+    "questionId": "8",
+    "questionDescription": "Do you pay attention when the tap is dripping at home?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Sometimes/Regularly",
+        "value": "20",
+        "Tips": "You are a hero. Always remember to hire PUB approved plumbers."
+      },
+      {
+        "option": "No",
+        "value": "0",
+        "Tips": "If you find and fix a leak, you can save water significantly."
+      }
+    ]
+  },
+  {
+    "questionId": "9",
+    "questionDescription": "How often do you wash hands during the day?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "More than 10 times",
+        "value": "20",
+        "Tips": "Keep your health and hygiene by effective use of water."
+      },
+      {
+        "option": "Less than 10 times",
+        "value": "0",
+        "Tips": "A gentle reminder to use the effective means of water usage."
+      }
+    ]
+  },
+  {
+    "questionId": "10",
+    "questionDescription": "Do you particiapte in any water conservation programmes?",
+    "questionType": "SingleOption",
+    "questionOptions": [
+      {
+        "option": "Yes. I do Particiapate.",
+        "value": "0",
+        "Tips": "Wow. Spread the importance to save the water."
+      },
+      {
+        "option": "No",
+        "value": "10",
+        "Tips": "It is important to create the awareness of saving water. Water Scarcity may be big issue for future generations."
       }
     ]
   }
